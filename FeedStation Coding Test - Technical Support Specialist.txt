@@ -1,0 +1,65 @@
+FeedStation Coding Test
+Technical Support Specialist I
+
+As a FeedStation Technical Support Specialist, it's your responsibility to make sure customer solutions are:
+
+- Thoroughly considered and thought out
+- Execute the client's strategy
+- Deliver a superior customer experience
+
+One real-world challenge we run into looks something like this: "My supplier sends me a bunch of files every day. I don't understand them, but I need to use them to update price and quantity for a few brands on Amazon multiple times a day. I need to make 5% over my costs after shipping, and I need to exlude products that won't be profitable. Can you help me?"
+
+There are 4 CSV files attached to this request:
+
+Turn14-Brands
+Turn14-Items
+Turn14-Pricing
+Turn14-Inventory
+
+These files have been converted from structured JSON and they accurately represent real-world data.
+
+The purpose of this exercise is simple. You are to prepare a 2-part project.
+
+PART 1 - COMPLETE OUTPUT
+
+1. Generate a CSV with the complete price and inventory for the "aFe" and "Airaid" brands. The format should be:
+
+	brand_name
+	product_number
+	mfr_product_number
+	item_name
+	item_quantity
+	item_cost
+	minimum_price
+	sale_price
+
+2. In addition to the CSV inventory file, your project will generate a log file that explains why certain items were included/excluded from the final result. The log should be concise, yet suitable for debugging purposes.
+
+3. Assumes a standard shipping price of $10.00, and a margin of 5% over costs with shipping.
+
+4. Honors the minimum advertised price (map_price) where applicable.
+
+5. If the client can't generate a profit at MAP, then try the retail price. If the client can't generate a profit at the retail price, then try the minimum profitable price.
+
+
+PART 2 - DELTA OUTPUT
+
+1. Change the values of 10 random quantity and price values in the original files.
+
+2. Generate a CSV with the delta price and inventory compared to the data in PART 1. The format should be:
+
+	brand_name
+	product_number
+	mfr_product_number
+	item_name
+	item_quantity
+	item_cost
+	minimum_price
+	sale_price
+
+
+Technical Requirements:
+
+1. C# 4.7.2 minimum running in Visual Studio. The project must compile without modifications.
+2. You may not use any databases - the application must run in-memory.
+3. Each run of the application must deliver correct results in under 120 seconds.

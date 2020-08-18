@@ -1,0 +1,12 @@
+/Users/spaldingvance/code/FeedStation/myApp/bin/Debug/netcoreapp3.1/myApp.deps.json
+/Users/spaldingvance/code/FeedStation/myApp/bin/Debug/netcoreapp3.1/myApp.runtimeconfig.json
+/Users/spaldingvance/code/FeedStation/myApp/bin/Debug/netcoreapp3.1/myApp.runtimeconfig.dev.json
+/Users/spaldingvance/code/FeedStation/myApp/bin/Debug/netcoreapp3.1/myApp.dll
+/Users/spaldingvance/code/FeedStation/myApp/bin/Debug/netcoreapp3.1/myApp.pdb
+/Users/spaldingvance/code/FeedStation/myApp/obj/Debug/netcoreapp3.1/myApp.csprojAssemblyReference.cache
+/Users/spaldingvance/code/FeedStation/myApp/obj/Debug/netcoreapp3.1/myApp.AssemblyInfoInputs.cache
+/Users/spaldingvance/code/FeedStation/myApp/obj/Debug/netcoreapp3.1/myApp.AssemblyInfo.cs
+/Users/spaldingvance/code/FeedStation/myApp/obj/Debug/netcoreapp3.1/myApp.csproj.CoreCompileInputs.cache
+/Users/spaldingvance/code/FeedStation/myApp/obj/Debug/netcoreapp3.1/myApp.dll
+/Users/spaldingvance/code/FeedStation/myApp/obj/Debug/netcoreapp3.1/myApp.pdb
+/Users/spaldingvance/code/FeedStation/myApp/obj/Debug/netcoreapp3.1/myApp.genruntimeconfig.cache
